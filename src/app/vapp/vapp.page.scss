@@ -1,0 +1,40 @@
+ion-button {
+    margin-bottom: 10px;
+    --color: #007bff; 
+    --background: transparent;
+    --border-color: #30f6aa; 
+    --border-radius: 9px; 
+    --padding-start: 18px; 
+    --padding-end: 16px;
+}
+    
+.black-text-button {
+    --color: black;
+    --ion-background-color: black;
+  }
+
+ion-title{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+ion-menu{
+    --ion-background-color: rgb(250, 252, 252);
+}
+
+ion-label{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+}
+ion-card{
+    --ion-background-color: rgb(247, 249, 249);
+  
+}
+ion-col{
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+ion-content{
+    --ion-background-color: rgb(174, 252, 252);;
+}

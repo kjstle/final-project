@@ -1,0 +1,135 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-button expand="block" color="success" routerLink="/admin">
+     Home   
+     </ion-button>
+    <ion-button expand="block" color="success" routerLink="/alogin">
+      Logout
+    </ion-button>
+  </ion-content>
+</ion-menu>
+<base href="/ionicproject-master/">
+
+
+
+<ion-content class="ion-padding">
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title> View Application</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding"> 
+
+    <br>
+    <br>
+    <ion-card>
+    <ion-label><h1>Scholar Application List</h1></ion-label>
+    <br>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>Name </ion-col>
+        <ion-col>Address</ion-col>
+        <ion-col>Scholarship</ion-col>
+        <ion-col>Application</ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Baby Herrah M. Paala</ion-col>
+        <ion-col>Wawa Ibaba</ion-col>
+        <ion-col>Mandanas</ion-col>
+        <ion-button expand="block" color="success" routerLink="/scholar">
+          View Application
+        </ion-button>
+        <ion-col>
+            <ion-select placeholder="Status">
+              <ion-select-option value="app">Approved</ion-select-option>
+              <ion-select-option value="rej">Rejected</ion-select-option>
+            </ion-select>
+          </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Jan Chris Morales </ion-col>
+        <ion-col>San Nicolas</ion-col>
+        <ion-col>Mandanas</ion-col>
+        <ion-button expand="block" color="success" routerLink="/scholar">
+          View Application
+        </ion-button>
+        <ion-col>
+          <ion-select placeholder="Status">
+            <ion-select-option value="app">Approved</ion-select-option>
+            <ion-select-option value="rej">Rejected</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Christian Angelo Hernandez </ion-col>
+        <ion-col>San Nicolas</ion-col>
+        <ion-col>Mandanas</ion-col>
+        <ion-button expand="block" color="success" routerLink="/scholar">
+          View Application
+        </ion-button>
+        <ion-col>
+          <ion-select placeholder="Status">
+            <ion-select-option value="app">Approved</ion-select-option>
+            <ion-select-option value="rej">Rejected</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Ashley Enriquez </ion-col>
+        <ion-col>San Nicolas</ion-col>
+        <ion-col>Mandanas</ion-col>
+        <ion-button expand="block" color="success" routerLink="/scholar">
+          View Application
+        </ion-button>
+        <ion-col>
+          <ion-select placeholder="Status">
+            <ion-select-option value="app">Approved</ion-select-option>
+            <ion-select-option value="rej">Rejected</ion-select-option>
+          </ion-select>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col>Crystel Moreno </ion-col>
+        <ion-col>San Nicolas</ion-col>
+        <ion-col>Mandanas</ion-col>
+        <ion-button expand="block" color="success" routerLink="/scholar">
+          View Application
+        </ion-button>
+        <ion-col>
+          <ion-select placeholder="Status">
+            <ion-select-option value="app">Approved</ion-select-option>
+            <ion-select-option value="rej">Rejected</ion-select-option>
+          </ion-select>
+          <ion-button expand="block" color="primary" [routerLink]="['/admin']">
+            Back
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card>
+   </ion-content>
+</div>
+</ion-content>
+
+
+

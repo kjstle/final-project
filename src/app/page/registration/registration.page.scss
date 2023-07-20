@@ -1,0 +1,52 @@
+ion-item{
+  --ion-background-color: #f8fbfc;
+}
+ion-button {
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+ion-button {
+  background-color: #f0f0f0;
+}
+
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+
+
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    ion-button {
+      margin-bottom: 10px;
+    }
+  }
+  
+  ion-title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
+
+  ion-label{
+     font-family: 'Times New Roman', Times, serif;
+    
+  }

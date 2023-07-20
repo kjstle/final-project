@@ -1,0 +1,60 @@
+/* Add this to your global styles (e.g., styles.scss) */
+ion-title {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.landing-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  background-color: #f0f0f0;
+  background-image: url('/assets/2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  ion-card {
+    max-width: 400px;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    ion-card-header {
+      ion-card-title {
+        font-size: 24px;
+      }
+    }
+
+    ion-card-content {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  }
+
+  ion-button {
+    margin-bottom: 10px;
+    --color: #007bff; 
+    --background: transparent;
+    --border-color: #007bff; 
+    --border-radius: 9px; 
+    --padding-start: 18px; 
+    --padding-end: 16px;
+  }
+   ion-button {
+    margin-bottom: 10px;
+    --color: #007bff; 
+    --background: transparent;
+    --border-color: #007bff; 
+    --border-radius: 9px; 
+    --padding-start: 18px; 
+    --padding-end: 16px;
+  }
+
+}

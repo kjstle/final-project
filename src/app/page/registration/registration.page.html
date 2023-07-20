@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Registration Form</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form>
+  
+  <ion-item>
+    <ion-label position="floating">Full Name</ion-label>
+    <ion-input type="text" name="fullName" required></ion-input>
+  </ion-item>
+
+ 
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="email" name="email" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Address</ion-label>
+    <ion-input type="text" name="address" required></ion-input>
+  </ion-item>
+
+  
+  <ion-item>
+    <ion-label position="floating">Contact Number</ion-label>
+    <ion-input type="tel" name="contactNumber" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Birth Date</ion-label>
+    <ion-input type="date" name="birthdate" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Age</ion-label>
+    <ion-input type="number" name="age" required></ion-input>
+  </ion-item>
+
+ 
+  <ion-item>
+    <ion-label position="floating">Gender</ion-label>
+    <ion-select name="gender" required>
+      <ion-select-option value="male">Male</ion-select-option>
+      <ion-select-option value="female">Female</ion-select-option>
+      <ion-select-option value="other">Other</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label position="floating">Civil Status</ion-label>
+    <ion-select name="civilstatus" required>
+      <ion-select-option value="single">Single</ion-select-option>
+      <ion-select-option value="married">Married</ion-select-option>
+      <ion-select-option value="divorced">Divorced</ion-select-option>
+      <ion-select-option value="widowed">Widowed</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label position="floating">Year Level</ion-label>
+    <ion-input type="text" name="yearlevel" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">School</ion-label>
+    <ion-input type="text" name="school" required></ion-input>
+  </ion-item>
+
+    <ion-button expand="block" color="success" >
+      Attach Grade
+    </ion-button>
+    <ion-button expand="block" color="success" >
+      Attach ID
+    </ion-button>
+    <br>
+    <br>
+    <ion-button expand="block" color="dark" [routerLink]="['/options']">
+      Register
+    </ion-button>
+  </form>
+  
+</ion-content>
